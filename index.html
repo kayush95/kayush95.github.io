@@ -1,7 +1,141 @@
-<!DOCTYPE html>
+
+<!-- If you are reading this, you are reading my procrastination -->
 <html>
+<head>
+<title>Kumar Ayush - IIT Kharagpur</title>
+<link href='//fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+<style>
+@media screen and (max-device-width: 480px){
+  body{
+      -webkit-text-size-adjust: 100%;
+        }
+        }
+p { font-size : 17px; }
+h1 { padding : 0; margin : 0; font-size : 38px; }
+h2 { font-size : 28px; margin : 0; padding : 0; }
+h3 { margin : 24px 0; }
+body { padding : 0; font-family: 'Lato', sans-serif; font-size : 17px; } 
+.title { width : 800px; margin : 20px auto; color : #000; margin-top : 30px; }
+.title a, .title a:visited {position : relative;}
+.container { width : 800px; margin : 10px auto; border-radius: 20px; padding : 15px;  clear:both; }
+#bio { height : 250px; position: relative; float : left; width : 400px; }
+#me { border : 0 solid black; margin-bottom : 30px; border-radius : 10px; }
+#sidebar { margin-left:80px; margin-right : 50px; border : 0 solid black; float : left; margin-bottom : 0;}
+a { text-decoration : none; }
+a:hover { text-decoration : underline; }
+a, a:visited { color : #3366cc; }
+.publogo { margin-right : 20px; float : left; border : 0;}
+.publication { clear : left; padding-bottom : 3px; }
+.publication-short { padding-left : 120px; }
+.publication p { height : 100px; padding-top : 0px;}
+.publication-short p { height : 0; }
+.publication strong a { color : #000; text-decoration  :none; }
+.publication strong a:hover { text-decoration : underline; }
+.publication .links { position : relative; top : 15px }
+.publication .links a { margin-right : 20px; }
+.publication .links strong { margin-right : 20px; }
+.publication img { border-radius : 5px; }
+.codelogo { margin-right : 50px; float : left; border : 0;}
+.code { padding-bottom : 10px; vertical-align :middle; height : 150px !important; width : 550px;} 
+.code .download a { display : block; margin : 0 30px 0 0; float : left;}
+.code strong { display : block; padding-bottom : 10px;}
+.code strong a { color : #000; }
+.code img { border-radius : 5px; }
+.external a { margin : 0 10px; }
+.external a.first { margin : 0 10px 0 0; }
+#news li { padding : 5px 0; }
+#news li li { padding : 3px 0; }
+#news strong a { color : black; }
+.new { background-color : #cc0000; color:white; border-radius : 5px; padding : 2px; font-size : 14px; margin : 0 10px;}
+</style>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-17813713-3', 'mit.edu');
+  ga('send', 'pageview');
+
+</script>
+
+<link rel="shortcut icon" href="/files/assets/images/favicon.ico" />
+
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<div class="title">
+    <div id="sidebar"><img src="me-fall2.jpg" id="me" width="225" itemprop="photo"></div>
+
+    <div id="bio">
+        <div style="position:absolute;top:28px;">
+            <h1><span itemprop="name">Carl Vondrick</span></h1>
+
+            <p style="line-height:23px;">
+            Massachusetts Institute of Technology<br>
+            Email: <a href="mailto:vondrick@mit.edu">vondrick@mit.edu</a><br>
+            Office: 32-D475B</p>
+            <p class="external"><a href="cv.pdf" class="first">Resume</a> &bull; <a href="https://github.com/cvondrick">Github</a> &bull; <a href="http://scholar.google.com/citations?user=3MzhkFIAAAAJ&hl=en">Scholar</a></p>
+        </div>
+    </div>
+
+</div>
+
+<div class="container">
+    <h2>About Me</h2>
+    <p>My research studies computer vision and machine learning. Scene
+    understanding models excel with large amounts of labeled data, however this
+    is expensive to scale. My work explores how to efficiently leverage human
+    effort and unlabeled data in order to create more powerful perception
+    systems.</p> 
+
+    <p>I am a Ph.D. student at <a href="http://web.mit.edu">MIT</a>
+    where I am advised by <a href="http://web.mit.edu/torralba/www/">Antonio Torralba</a>.
+    I completed my undergraduate degree at <a href="http://www.ics.uci.edu">UC Irvine</a> advised by <a
+    href="http://www.cs.cmu.edu/~deva/">Deva Ramanan</a>. I spent some summers at <a href="https:/google.com">Google</a>
+    and <a href="http://www.nytimes.com/2011/11/14/technology/at-google-x-a-top-secret-lab-dreaming-up-the-future.html?pagewanted=all">Google X</a>. Thank you
+    to <a href="http://googleresearch.blogspot.com/2015/02/announcing-2015-north-american-google.html">Google</a> and the <a href="https://www.nsfgrfp.org/">NSF</a>  for supporting my research!</p>
+
+</div>
+
+<div class="container">
+<h2>News</h2>
+
+<ul id="news">
+    
+    <li>Two papers will appear at NIPS 2016:
+        <ul>
+            <li><a href="tinyvideo/">Generating Videos with Scene Dynamics</a></a>
+            <li><a href="http://projects.csail.mit.edu/soundnet/">SoundNet: Learning Sound Representations from Unlabeled Video</a></li>
+        </ul>
+    </li>
+
+    <li>Our research got some coverage in the media:
+    <ul>
+        <li>Check out <a href="http://www.npr.org/sections/alltechconsidered/2016/07/12/485144229/a-computer-binge-watched-tv-and-learned-to-predict-what-happens-next">NPR</a>, <a href="http://bigstory.ap.org/7ec97c70223e49b98fbc7df2ff824d59">Associated Press</a>, <a href="http://money.cnn.com/2016/06/21/technology/ai-kissing/">CNN</a>, <a href="http://www.wired.com/2016/06/mit-algorithm-predicts-future-watching-tv/">Wired</a> and <a href="https://www.youtube.com/watch?v=pGrNwtHxMqs">Late Show with Stephen Colbert</a> for press on anticipating human actions in the future.</li>
+        <li>Read <a href="https://www.newscientist.com/article/mg23231020-100-ai-learns-to-predict-the-future-by-watching-2-million-videos/">New Scientist</a> and <a href="http://motherboard.vice.com/read/researchers-taught-a-machine-how-to-generate-the-next-frames-in-a-video">Vice</a> for press about generating videos of the future.</li>
+    </ul></li>
+
+    <li>Check out a <a href="https://www.re-work.co/blog/machine-intelligence-carl-vondrick-mit-computer-vision-predictive-intelligence">recent interview</a> about our overall research.</li>
+
+    <li>Pre-print for <a href="cmplaces_pami.pdf">Cross-Modal Scene Networks</a> is available.</li>
+
+    <li>Three papers appeared at CVPR 2016: 
+        <ul>
+            <li><a href="prediction">Anticipating Visual Representations with Unlabeled Video</a></li>
+            <li><a href="intention.pdf">Predicting Motivations of Actions by Leveraging Text</a></li>
+            <li><a href="adaptation.pdf">Learning Aligned Cross-Modal Representations from Weakly Aligned Data</a></li>
+        </ul>
+    </li>
+</ul>
+
+</div>
+
+
+<div class="container">
+
+</div>
+
 </body>
 </html>
