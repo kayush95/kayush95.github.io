@@ -1,59 +1,1224 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8"/>
-    <title>Kumar Ayush - Home</title>
-    <link rel="stylesheet" href="./css/master.css"/>
-    <link href='https://fonts.googleapis.com/css?family=Slabo+27px|Roboto+Slab:400,700,300' rel='stylesheet' type='text/css'>
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-78443229-1', 'auto');
-    ga('send', 'pageview');
-    </script>
-	
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Kumar Ayush</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="icon" href="img/icon.jpg">
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+	<style>
+		<!---img {
+			display: block;
+			margin: 0 auto;
+			} --->
+		#img-circle {
+				border-radius: 50px;
+				border: 2px solid #73AD21;
+			}
+		
+	</style>
 </head>
 
-<body>
+<body id="page-top" class="index">
 
-<div class="wrapper">
-	<h1>Kumar Ayush</h1>
-        <h2>
-                <a href="./">Home</a> ||
-		<a href="./publications.html">Papers and Patents</a> ||
-		<a href="./projects.html">Research</a> ||
-		<a href="https://scholar.google.com/citations?user=gIlnMF8AAAAJ">Google Scholar</a> ||
-		<a href="./data/CV.pdf">CV</a> ||
-		<a href="./favourites.html">Favourites</a>
-        </h2>
-        <br>
-	<div class="posts-wrapper">
-		<div class="post">			
-			<div style='float:right; padding:0 0 0 2rem;'>
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top"> </span> <i class="fa fa-terminal" style="color:black"></i> Kumar Ayush</a>
+            </div>
 
-			        <img src='./data/myimage.png' style="width:330px;"/>
-				<p style="font-size:17px;">Email: <a href="mailto:kumar.ayush@iitkgp.ac.in">kumar.ayush[at]iitkgp[dot]ac[dot]in</a></p>
-				<p style='text-align:center'>
-				<a href="http://www.facebook.com/kumar.ayush.507"><img src="http://static.viewbook.com/images/social_icons/facebook_32.png" style="width:32px;"/></a>
-				<a href="https://in.linkedin.com/in/kumar-ayush-a19534a5"><img src="http://static.viewbook.com/images/social_icons/linkedin_32.png" style="width:32px;"/></a>
-				<a href='https://github.com/kayush95/'><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT-XrN9zioLEq4pC5j7gmy1rMiPvrWgjZd39kQKxJ2GhT7Fgn-AvjYZ_A" style="width:36px;"/></a>
-				</p>
-			</div>			
-			<p style="font-size:17px;">I am a final year undergraduate at the <a href="http://iitkgp.ac.in/">Indian Institute of Technology Kharagpur</a>, enrolled in a bachelor's program in <a href="http://cse.iitkgp.ac.in/">Computer Science and Engineering</a>, scheduled to graduate in 2017.</p>
-			<p style="font-size:17px;">My research studies machine learning and its applications to computer vision.
-I am currently working with <a href="https://scholar.google.co.in/citations?user=5bXSZPYAAAAJ&hl=en">Prof. Pabitra Mitra</a> for my Bachelor's thesis on creating class conditional GAN (Generative Adversarial Networks) architectures for action recognition in images. A part of my thesis also focuses on using GAN for segmentation of retinal vessels in fundus images.</p>
-<p style="font-size:17px;">I was a research intern (Summer 2016) at the <a href="https://research.adobe.com/about-the-labs/bigdata-experience-lab/">Big Data Experience Lab</a> at <a href="https://research.adobe.com/people/#location">Adobe Research Bangalore</a>, working with <a href="https://research.adobe.com/person/gaurush-hiranandani/">Gaurush Hiranandani</a> on Augmented Reality for Enterprise. Prior to this (Summer 2015), I was a visiting student researcher at the <a href="http://val.serc.iisc.ernet.in/valweb/index.html">Video Analytics Lab</a> at the <a href="http://www.iisc.ac.in/">Indian Institute of Science Bangalore</a>, working with <a href="https://www.linkedin.com/in/srinivaskss">Srinivas S. S. Kruthiventi</a>, supervised by <a href="http://www.serc.iisc.ernet.in/~venky/">Prof. R. Venkatesh Babu</a>, on Saliency Prediction (<a href="./deepfix.html">DeepFix</a>).</p> 
-<p style="font-size:17px;">At my home college, I have been fortunate to work with a variety of faculty on interesting projects. I have worked with <a href="http://cse.iitkgp.ac.in/~sandipc/">Prof. Sandip Chakraborty</a> on PCF-based model for Performance Enhancement of Double Channel 802.11n WLAN. Prior to this, I have worked with <a href="http://cse.iitkgp.ac.in/~pawang/">Prof. Pawan Goyal</a> on applying conditional random fields to extract information from scholarly articles (<a href="http://www.cnergres.iitkgp.ac.in/OCR++/home/">OCR++</a>).
-<br>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#research">Research</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#publications">Publications</a>
+                    </li> 
+					<li class="page-scroll">
+                        <a href="#patents">Patents</a>
+                    </li> 
+                    <li class="page-scroll">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#favourites">Favourites</a>
+                    </li>					
+                    <li class="page-scroll">
+                        <a href="https://scholar.google.com/citations?user=gIlnMF8AAAAJ">Google Scholar</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="./pdfs/CV.pdf">CV</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>                                                                          
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive;img-circle;" src="img/myimage.jpg" style="width:300px; border: 5px solid #FFFFFF;border-radius: 50%;" alt="">
+                    <div class="intro-text">
+                        <span class="name" >Kumar Ayush</span>
+                        <hr class="star-light">
+                        <span class="skills"><i class="fa fa-code" style="color:yellow"></i> Machine Learning <i class="fa fa-code" style="color:yellow"></i> Computer Vision <i class="fa fa-code" style="color:yellow"></i> Natural Language <i class="fa fa-code" style="color:yellow"></i></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <p><br><br>I’m Kumar Ayush, a senior undergraduate student at the <a href="http://iitkgp.ac.in/" style="color:cyan">Indian Institute of Technology, Kharagpur</a>.</p>
+                <br></br>
+            </div>
+<br></br><br></br><br></br><br></br><br></br>
+           <div>
+				<img src="img/new.png" style="width:50px;" align="left"><br><br><br>
+				<p style="text-align:justify">Our work, OCR++, has been selected for the prestigious <a href="http://gyti.techpedia.in/" target="_blank" style="color:cyan">Gandhian Young Technological Innovation (GYTI) Award 2017</a>. The Gandhian Young Technological Innovation Awards will be given on March 5, at the Festival of Innovations (FOIN), March 4-11, 2017 hosted by the office of the <b>President of India</b>, <b>Rashtrapati Bhavan, New Delhi</b>.</p>
+            </div>			
+			
+
+<!---
+            <div class="column">
+                <div class="col-lg-5 col-lg-offset-0" style="text-align:justify">
+                    <p>I love to <a href="#projects" style="color:cyan">build stuff</a> - dabble with software, tinker with electronics and occasionally dip my toe in design and fabrication. Ergo, I wish to pursue graduate degree in robotics - focused on field robotics and computer vision.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2" style="text-align:justify">
+                    <p>Over the years, I’ve had the opportunity to conduct <a href="#research" style="color:cyan">research</a> at leading institutions and even <a href="#publications" style="color:cyan">publish</a>. Feel free to scroll on down, and <a href="#contact" style="color:cyan">contact</a> me!</p>
+                </div>
+            </div>
+--->
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section  id="research">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Research</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="col-lg-10 col-lg-offset-1 text-center" style="text-align:justify">
+				<p style="font-size:19px;">My research studies machine learning and its applications to computer vision.
+				I am currently working with <a href="https://scholar.google.co.in/citations?user=5bXSZPYAAAAJ&hl=en" target="_blank" style="color:rgb(173, 45, 3)">Prof. Pabitra Mitra</a> for my Bachelor's thesis on creating class conditional GAN (Generative Adversarial Networks) architectures for action recognition in images. A part of my thesis also focuses on using GAN for segmentation of retinal vessels in fundus images.</p>
+				<p style="font-size:19px;">I was a research intern (Summer 2016) at the <a href="https://research.adobe.com/about-the-labs/bigdata-experience-lab/" target="_blank" style="color:rgb(173, 45, 3)">Big Data Experience Lab</a> at <a href="https://research.adobe.com/people/#location" target="_blank" style="color:rgb(173, 45, 3)">Adobe Research, Bangalore</a>, working with <a href="https://research.adobe.com/person/gaurush-hiranandani/" target="_blank" style="color:rgb(173, 45, 3)">Gaurush Hiranandani</a> on Augmented Reality for Enterprise. Prior to this (Summer 2015), I was a visiting student researcher at the <a href="http://val.serc.iisc.ernet.in/valweb/index.html">Video Analytics Lab</a> at the <a href="http://www.iisc.ac.in/" target="_blank" style="color:rgb(173, 45, 3)">Indian Institute of Science, Bangalore</a>, working with <a href="https://www.linkedin.com/in/srinivaskss" target="_blank" style="color:rgb(173, 45, 3)">Srinivas S. S. Kruthiventi</a>, supervised by <a href="http://www.serc.iisc.ernet.in/~venky/" target="_blank" style="color:rgb(173, 45, 3)">Prof. R. Venkatesh Babu</a>, on Saliency Prediction (<a href="https://arxiv.org/abs/1510.02927" target="_blank" style="color:rgb(173, 45, 3)">DeepFix</a>) and Salient Object Segmentation.</p> 
+				<p style="font-size:19px;">At my home college, I have been fortunate to work with a variety of faculty on interesting projects. I have worked with <a href="http://cse.iitkgp.ac.in/~sandipc/" target="_blank" style="color:rgb(173, 45, 3)">Prof. Sandip Chakraborty</a> on PCF-based model for Performance Enhancement of Double Channel 802.11n WLAN. Prior to this, I have worked with <a href="http://cse.iitkgp.ac.in/~pawang/" target="_blank" style="color:rgb(173, 45, 3)">Prof. Pawan Goyal</a> on applying conditional random fields to extract information from scholarly articles (<a href="http://www.cnergres.iitkgp.ac.in/OCR++/home/" target="_blank" style="color:rgb(173, 45, 3)">OCR++</a>).
+				<br>
 	        	</p>
-	        	<br>
-			<br>
-			<p style="font-size:17px;">I can be also be contacted at <a href="mailto:k.ayush147@gmail.com">k.ayush147[at]gmail[dot]com</a>, and <a href="mailto:">+91-(91065^2 + 211^2 + 4^2 + 6^3) (India)</a></p>.
-			<br>
+                
+            </div>
+         </div>
+    </section>
+
+    <section class="success" id="experience">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Experience</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="https://research.adobe.com/about-the-labs/bigdata-experience-lab/" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+        	            <img class="img-circle"  src="img/portfolio/adobe.png" class="img-responsive" style="width:280px;" alt="" hspace="40">
+                    </a>
+                    <div class="col-lg-15 text-center" >
+                		<p><br>Big Data Experience Lab<br>Adobe Research</p>
+            		</div>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="http://www.iisc.ac.in/" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/iisc.png" class="img-responsive" style="width:280px;" alt="" hspace="40">
+                    </a>
+                    <div class="col-lg-15 text-center">
+                		<p><br>Video Analytics Lab<br>Indian Institute of Science</p>
+            		</div>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="http://www.cnergres.iitkgp.ac.in/" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-circle" src="img/portfolio/cnerg.jpg" class="img-responsive" style="width:280px;" alt="" hspace="40">
+                    </a>
+                    <div class="col-lg-15 text-center">
+                		<p><br>Complex Networks Research Group<br>IIT Kharagpur</p>
+            		</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!---    <section  id="education">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Education</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="column">
+                <div class="col-lg-5 col-lg-offset-2" style="text-align:justify">
+                    <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Undergraduate</h3><p><i class="glyphicon glyphicon-education" ></i>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://iitkgp.ac.in/" target="_blank" style="color:rgb(173, 45, 3)">Indian Institute of Technology, Kharagpur </a> <i>(2013-2017)</i><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B.Tech (Hons.) in <a href="http://cse.iitkgp.ac.in/" target="_blank" style="color:rgb(173, 45, 3)">Computer Science and Engineering</a><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cumulative Grade Point Average: <b>9.46/10</b></p>
+                </div> 
+                <div class="col-lg-5 col-lg-offset-0" style="text-align:justify">
+                     <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;High School</h3><p><i class="fa fa-book" ></i>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.srisankaraschools.org/seniorsecondary/" target="_blank" style="color:rgb(173, 45, 3)">Rajendra Vidyalaya, Jamshedpur</a> <i>(2013)</i><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Indian School Certificate (ISC)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CISCE Class XII: <b>97.6%</b></p> 
+                </div>
+            </div>
+         </div>
+    </section> --->
+	
+	
+	    <section id="publications">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Publications</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="col-lg-12" style="text-align:justify">
+                <p>[1] Mayank Singh, Barnopriyo Barua, Priyank Palod, Manvi Garg, Sidhartha Satapathy, Samuel Bushi, <b>Kumar Ayush</b>, Krishna Sai Rohith, Tulasi Gamidi, Pawan Goyal, Animesh Mukherjee. <b>"OCR++: A Robust Framework For Information Extraction from Scholarly Articles."</b> <i>International Conference on Computational Linguistics (Coling).</i> 2016. (poster, <img src="img/adobe.png" alt=""><a href="https://arxiv.org/abs/1609.06423" target="_blank" style="color:blue">link</a>, <a href="http://www.cnergres.iitkgp.ac.in/OCR++/home/" target="_blank" style="color:blue">framework</a>)</p>
+                <p>[2] Srinivas S. S. Kruthiventi, <b>Kumar Ayush</b>, R. Venkatesh Babu. <b>"DeepFix: A Fully Convolutional Neural Network for predicting Human Eye Fixations."</b> <i>IEEE Transactions on Image Processing.</i> (under review, <img src="img/adobe.png"> <a href="./pdfs/deepfix.pdf" target="_blank" style="color:blue">link</a>)</p>
+            </div>     
+        </div>
+    </section>
+	
+	<section id="patents">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2>Patents</h2>
+				<hr class="star-primary">
+			</div>
 		</div>
+		<div class="col-lg-12" style="text-align:justify">
+			<p>[1]  Gaurush  Hiranandani, Sai Varun Maram Reddy, <b>Kumar Ayush</b>, Chinnaobireddy Varsha and Siddhant Jain. <b>"Product Recommendations Based on Augmented Reality Viewpoints."</b> <i>US62/415332.</i>. (Filed in multiple countries)</p>
+			<p>[2] Gaurush  Hiranandani, <b>Kumar Ayush</b>, Chinnaobireddy Varsha and Sai Varun Maram Reddy. <b>"Viewpoint Driven Generation of Diversified Personalized Targeting Content."</b> (Filed)</p>
+			<p>[3] Gaurush Hiranandani, Chinnaobireddy Varsha, Sai Varun Maram Reddy, <b>Kumar Ayush</b> and Atanu R. Sinha. <b>"System  and  Method  to  Identify  Augmented  Visuals  Influencing  Consumer  Purchase  in  Virtual-Commerce."</b> (Filed)</p>
+		</div>     
 	</div>
-</div>
+	</section>
+
+    <!-- Portfolio Grid Section -->
+    <section class="success" id="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Projects</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#proj1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/sal.png" class="img-responsive" style="width:400px;height:250px;border: 5px solid #FFFFFF;border-radius: 75%;" alt="">
+                    </a>
+                    <div class="col-lg-15 text-center" >
+                		<p><br>DeepFix: A Fully Convolutional Neural Network for predicting Human Eye Fixations</p>
+            		</div>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#proj2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/ocr++.png" class="img-responsive" style="width:400px;height:250px;border: 5px solid #FFFFFF;border-radius: 75%;" alt="">
+                    </a>
+                    <div class="col-lg-15 text-center" >
+                		<p><br>OCR++: A Robust Framework For Information Extraction from Scholarly Articles</p>
+            		</div>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#proj3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/ikea.jpg" class="img-responsive" style="width:400px;height:250px;border: 5px solid #FFFFFF;border-radius: 75%;" alt="">
+                    </a>
+                    <div class="col-lg-15 text-center" >
+                		<p><br>Augmented Reality for Enterprise</p>
+            		</div>
+                </div>
+            </div>
+            <div class="row">   
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#proj4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/seg.png" class="img-responsive" style="width:400px;height:250px;border: 5px solid #FFFFFF;border-radius: 75%;" alt="">
+                    </a>
+                    <div class="col-lg-15 text-center" >
+                		<p><br>Combining Class Conditioned Representations in CNN for Salient Object Segmentation</p>
+            		</div>                    
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#proj5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/difs_pifs.png" class="img-responsive" style="width:400px;height:250px;border: 5px solid #FFFFFF;border-radius: 75%;" alt="">
+                    </a>
+                    <div class="col-lg-15 text-center" >
+                		<p><br>PCF-based models for Performance Enhancement of Double Channel 802.11n WLAN</p>
+            		</div>                
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#proj6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/other.jpg" class="img-responsive" style="width:400px;height:250px;border: 5px solid #FFFFFF;border-radius: 75%;" alt="">
+                    </a>
+                    <div class="col-lg-15 text-center" >
+                		<p><br>Other Projects</p>
+            		</div>                      
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <hr class="star-light">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 >Bachelor's Thesis (Ongoing Research)</h3>
+                </div>
+            </div>
+            <div class="row" style="padding-left:290px;padding-right:0px;">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#proj7" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/action.png" class="img-responsive" style="width:1200px;height:250px;border-radius: 15px;" alt="">
+                    </a>
+                    <div class="col-lg-15 text-center" >
+                        <p><br>Generative Adversarial Networks for Action Recognition in Images</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#proj8" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/retina.jpg" class="img-responsive" style="width:1200px;height:250px;border-radius: 15px;" alt="">
+                    </a>
+                    <div class="col-lg-15 text-center" >
+                        <p><br>Segmentation of Retinal Vessels in Fundus Images using Generative Adversarial Networks</p>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+
+
+    <section class="" id="favourites">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Favourites</h2>
+                    <hr class="star-primary">
+                </div>
+			</div>
+				
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="http://www.paulgraham.com/articles.html" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                
+                            </div>
+                        </div>
+                        <img src="img/portfolio/paulgraham.jpg" class="img-responsive" style="width:400px;height:300px;border: 5px solid #FFFFFF;border-radius: 75%;"  alt="">
+                    </a>
+                    <div class="col-lg-15 text-center" >
+                		<p><br>Paul Graham's Essays</p>
+            		</div>
+                </div>
+				
+                <div class="col-sm-4 portfolio-item">
+                    <a href="https://www.ycombinator.com/" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                
+                            </div>
+                        </div>
+                        <img src="img/portfolio/y.png" class="img-responsive" style="width:400px;height:300px;border: 5px solid #FFFFFF;border-radius: 75%;"" alt="">
+                    </a>
+                    <div class="col-lg-15 text-center" >
+                		<p><br>Y Combinator</p>
+            		</div>
+                </div>
+
+                <div class="col-sm-4 portfolio-item">
+                    <a href="http://colah.github.io/" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                
+                            </div>
+                        </div>
+                        <img src="img/portfolio/colah.jpg" class="img-responsive" style="width:400px;height:300px;border: 5px solid #FFFFFF;border-radius: 75%;"" alt="">
+                    </a>
+                    <div class="col-lg-15 text-center" >
+                		<p><br>Christopher Olah's Blog</p>
+            		</div>
+                </div>
+
+            
+               
+                <div class="col-sm-4 portfolio-item">
+                    <a href="https://openai.com/blog/generative-models/" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                
+                            </div>
+                        </div>
+                        <img src="img/portfolio/openai.png" class="img-responsive" style="width:400px;height:300px;border: 5px solid #FFFFFF;border-radius: 75%;"" alt="">
+                    </a>
+                    <div class="col-lg-15 text-center" >
+                		<p><br>OpenAI Generative Models</p>
+            		</div>
+				</div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="http://www.pyimagesearch.com/" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                
+                            </div>
+                        </div>
+                        <img src="img/portfolio/adrianrosebrock.jpg" class="img-responsive" style="width:800px;height:300px;border: 5px solid #FFFFFF;border-radius: 75%;"" alt="">
+                    </a>
+                    <div class="col-lg-15 text-center" >
+                		<p><br>PyImageSearch by Adrian Rosebrock</p>
+            		</div>                    
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="https://www.stumbleupon.com/" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                
+                            </div>
+                        </div>
+                        <img src="img/portfolio/stumble.png" class="img-responsive" style="width:400px;height:300px;border: 5px solid #FFFFFF;border-radius: 75%;"" alt="">
+                    </a>
+                    <div class="col-lg-15 text-center" >
+                		<p><br>StumbleUpon</p>
+            		</div>                    
+                </div>				
+               
+            </div>        
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="success" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Me</h2>
+                    <hr class="star-light">
+
+                </div>
+            </div>
+            <div class="column">
+                <div class="col-lg-4 col-lg-offset-0">
+					
+                    <br></br><br></br>
+<!-- 					<span style="font-size:1.5em;">Email:</span>
+					<span style="font-size:1.5em;"><a href="mailto:kumar.ayush@iitkgp.ac.in" target="_top" f>kumar[dot]ayush[at]iitkgp[dot]ac[dot]in</a></span><br>
+					<span style="font-size:1.5em;"><a href="mailto:k.ayush147@gmail.com" target="_top" f>k[dot]ayush147[at]gmail[dot]com</a></span><br><br>
+					<span style="font-size:1.5em;">Phone:</span><br>				
+					<span style="font-size:1.5em;"><a href="mailto:+91-8292878978" target="_top" f>+91-(91065^2+211^2+4^2+6^3) (India)</a></span> -->
+					<span style="font-size:1.5em;">Email:</span>
+					<span style="font-size:1.5em;">kumar[dot]ayush[at]iitkgp[dot]ac[dot]in</span><br>
+					<span style="font-size:1.5em;">k[dot]ayush147[at]gmail[dot]com</span><br><br>
+					<span style="font-size:1.5em;">Phone:</span><br>				
+					<span style="font-size:1.5em;">+91-(91065^2+211^2+4^2+6^3) (India)</span>
+                </div>
+                <div class="col-lg-4 col-lg-offset-4">
+                    <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="kumar-ayush-a19534a5"><a class="LI-simple-link" href='https://www.linkedin.com/in/kumar-ayush-a19534a5'></a></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>Kharagpur
+                            <br>West Bengal, India</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Find me at</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://in.linkedin.com/in/kumar-ayush-a19534a5" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/kayush95/" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>                       
+                            <li>
+                                <a href="http://www.facebook.com/kumar.ayush.507" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Design</h3>
+                        <p>Freelance, a theme by <a href="http://startbootstrap.com">Start Bootstrap</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Kumar Ayush 2017
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="proj1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <h2>DeepFix: A Fully Convolutional Neural Network for predicting Human Eye Fixations</h2>
+                            <hr class="star-primary">
+
+                            <ul class="list-inline item-details" style="font-size:20px">
+                                <li><i class="fa fa-tags"></i> Guide:
+                                    <strong><a href="http://www.serc.iisc.ernet.in/~venky/" target="_blank" style="color:rgb(173, 45, 3)">Dr. R. Venkatesh Babu</a>
+                                    </strong>
+                                </li>
+                                <li><i class="fa fa-tags"></i> Project Duration:
+                                    <b style="color:rgb(173, 45, 3)">May 2015 - July 2015</b>
+                                </li>
+                                <li><i class="fa fa-tags"></i> Keywords:
+                                    <b style="color:rgb(173, 45, 3)"> Computer Vision, Deep Learning</b>
+                                </li>
+                                <p><br><i class="fa fa-file-pdf-o"></i> <a href="pdfs/deepfix.pdf" target="_blank" style="color:blue">Publication preprint</a></p>
+                            </ul>
+
+                                                      
+							
+							<p class="indent" style="text-align:justify">DeepFix</b><i> (Team VAL)</i> -- has been declared the <b>winner</b> of the <a href="http://lsun.cs.princeton.edu/2016/" target="_blank" style="color:rgb(173, 45, 3)">Large Scale Scene Understanding (LSUN) 2016</a> in <a href="http://lsun.cs.princeton.edu/leaderboard/index_2016.html" target="_blank" style="color:rgb(173, 45, 3)">Saliency Prediction</a>, organized by <b>Princeton University</b> in conjunction with <b>CVPR 2016</b>. The model is described in this <a href="./pdfs/deepfix.pdf" target="_blank" style="color:rgb(173, 45, 3)">paper</a>.</p> 
+							
+							<p class="indent" style="text-align:justify">Check out the performance of DeepFix on <a href="http://saliency.mit.edu/results_mit300.html" target="_blank" style="color:rgb(173, 45, 3)">MIT300</a> and <a href="http://saliency.mit.edu/results_cat2000.html" target="_blank" style="color:rgb(173, 45, 3)">CAT2000</a> datasets at<a href="http://saliency.mit.edu/home.html" target="_blank" style="color:rgb(173, 45, 3)"> MIT Saliency Benchmark</a>.</p> 
+
+							<p class="indent" style="text-align:justify"><b>Abstract:</b> Understanding and predicting the human visual attentional mechanism is an active area of research in the fields of neuroscience and computer vision. In this work, we propose DeepFix, a fully convolutional neural network for accurate saliency prediction. Unlike classical works which characterize the saliency map using various hand-crafted features, our model automatically learns features in a hierarchical fashion and predicts saliency map in an end-to-end manner. DeepFix is designed to capture semantics at multiple scales while taking global context into account using network layers with very large receptive fields. Generally, fully convolutional nets are spatially invariant which prevents them from modeling location dependent patterns (e.g. centre-bias). Our network handles this by incorporating a novel Location Biased Convolutional layer. We evaluate our model on multiple challenging saliency datasets and show that it achieves state-of-the-art results.</p> 
+						
+							<br><br>
+                            <!---<div style="margin:10px;">   
+                                <figure>
+                                    <img src="img/portfolio/DeepFixArchitecture.png" class="img-responsive img-centered" alt="" width="433" height="433">
+                                    <figcaption style="margin:10px;">DeepFix Architecture</i>.</figcaption>
+                                </figure>
+
+                                <figure>
+                                    <img src="img/portfolio/LBC.png" class="img-responsive img-centered" alt="" width="1200" >
+                                    <figcaption style="margin:10px;">Location Biased Convolution Filter for learning location dependent patterns in data (e.g., centre-bias present in the eye-fixations).</figcaption>                  
+                                </figure>
+
+                            </div>--->
+							<img src="img/portfolio/DeepFixArchitecture.png" class="img-responsive img-centered" alt="" width="433" height="433">
+							<figcaption style="margin:10px;">Fig 1: DeepFix Architecture</i>.</figcaption>
+							<br><br>
+							<img src="img/portfolio/LBC.png" class="img-responsive img-centered" alt="">
+							<figcaption style="margin:10px;">Fig 2: Location Biased Convolution Filter for learning location dependent patterns in data (e.g., centre-bias present in the eye-fixations).</figcaption> 
+							<br><br><br><br>
+							 
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="portfolio-modal modal fade" id="proj2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <h2>OCR++: A Robust Framework For Information Extraction from Scholarly Articles</h2>
+                            <hr class="star-primary">
+
+                            <ul class="list-inline item-details" style="font-size:20px">
+                                <li><i class="fa fa-tags"></i> Guide:
+                                    <strong><a href="http://cse.iitkgp.ac.in/~pawang/" target="_blank" style="color:rgb(173, 45, 3)">Prof. Pawan Goyal</a>
+                                    </strong>
+                                </li>
+                                <li><i class="fa fa-tags"></i> Project Duration:
+                                    <b style="color:rgb(173, 45, 3)">August 2015 - December 2015</b>
+                                </li>
+                                <li><i class="fa fa-tags"></i> Keywords:
+                                    <b style="color:rgb(173, 45, 3)">Information Extraction, Machine Learning</b>
+                                </li>
+                            </ul>
+                            
+                           
+							<img src="img/portfolio/ocr++.png" class="img-responsive img-centered" alt="">
+							
+
+							<img src="img/new.png" style="width:50px;" align="left"><br><br><br>
+							<p style="text-align:justify">OCR++ has been selected for the prestigious <a href="http://gyti.techpedia.in/" target="_blank" style="color:rgb(173, 45, 3)">Gandhian Young Technological Innovation (GYTI) Award 2017</a>. The Gandhian Young Technological Innovation Awards will be given on March 5, at the Festival of Innovations (FOIN), March 4-11, 2017 hosted by the office of the <b>President of India</b>, <b>Rashtrapati Bhavan, New Delhi</b>.</p>
+							
+							<p class="indent" style="text-align:justify">OCR++ bagged the <b>third prize</b> at <a href="http://cse.iitkgp.ac.in/conf/IBM/" target="_blank" style="color:rgb(173, 45, 3)">IBM Day</a> 2016 (system demonstartion contest) at IIT Kharagpur.</p>
+
+                            
+							<p style="text-align:justify">OCR++ was also felicitated by <b>Flipkart</b> as the <b>best term project</b> of <b>Speech and Natural Language Processing</b> course in fall 2015.</p>
+							
+                            <p class="indent" style="text-align:justify"><b>Abstract:</b> This paper proposes OCR++, an open-source framework designed for a variety of information
+                    extraction tasks from scholarly articles including metadata (title, author names, affiliation and
+                    e-mail), structure (section headings and body text, table and figure headings, URLs and footnotes) and bibliography (citation instances and references). We analyze a diverse set of scientific
+                    articles written in English language to understand generic writing patterns and formulate rules
+                    to  develop  this  hybrid  framework.   Extensive  evaluations  show  that  the  proposed  framework
+                    outperforms the existing state-of-the-art tools with huge margin in structural information extraction along with improved performance in metadata and bibliography extraction tasks,  both in
+                    terms of accuracy (around 50% improvement) and processing time (around 52% improvement).
+                    A user experience study conducted with the help of 30 researchers reveals that the researchers
+                    found this system to be very helpful. As an additional objective, we discuss two novel use cases
+                    including automatically extracting links to public datasets from the proceedings, which would
+                    further accelerate the advancement in digital libraries.  The result of the framework can be exported as a whole into structured TEI-encoded documents.  Our framework is accessible online
+                    at <a href="http://www.cnergres.iitkgp.ac.in/OCR++/home/" target="_blank" style="color:rgb(173, 45, 3)">this URL</a>. The model is described in <a href="https://arxiv.org/abs/1609.06423v3" target="_blank" style="color:rgb(173, 45, 3)">this paper</a>.</p> 
+
+		
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="portfolio-modal modal fade" id="proj3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <h2>Augmented Reality for Enterprise</h2>
+                            <hr class="star-primary">
+
+                            <ul class="list-inline item-details" style="font-size:20px">
+                                <li><i class="fa fa-tags"></i> Guide:
+                                    <strong><a href="https://research.adobe.com/person/gaurush-hiranandani/" target="_blank" style="color:rgb(173, 45, 3)">Gaurush Hiranandani</a>
+                                    </strong>
+                                </li>
+                                <li><i class="fa fa-tags"></i> Project Duration:
+                                    <b style="color:rgb(173, 45, 3)">May 2016 - July 2016</b>
+                                </li>
+                                <li><i class="fa fa-tags"></i> Keywords:
+                                    <b style="color:rgb(173, 45, 3)">Statistics, Linguistic and Visual Personalization</b>
+                                </li>
+                                <!---<p><br><i class="fa fa-file-pdf-o"></i> <a href="pdfs/Kinect_Report.pdf" target="_blank" style="color:blue">Technical Report</a> | <i class="fa fa-picture-o"></i> <a href="pdfs/Kinect_Poster.pdf" target="_blank" style="color:blue">Poster</a></p> --->
+                            </ul>
+							
+                            <br><br> 
+                                <img src="img/portfolio/aug.png" class="img-responsive img-centered" alt="" width="600">
+							<br>
+                            <p class="indent" style="text-align:justify">The project involved development of an end-to-end system for creation of personalized catalogues to retarget users with recommendations embedded in the purchase viewpoint
+obtained via augmented reality app usage. Designed a predictive model for identification of purchase viewpoint
+from a user’s mobile app session. Built a system for creating personalized catalogues with relevant recommendations
+embedded in the viewpoint. A novel method for recommendation was designed which retrieves
+products based on style similarity and theme compatibility. Devised a graph based approach for automatic
+generation of personalized email content suitable for the catalogue.</p> 
+
+							<p class="indent" style="text-align:justify"><b>Three patents</b> have been filed in the <b>US Patent and Trademark Office</b> and other countries as well.</p> 
+							
+							<p class="indent" style="text-align:justify">The work also featured in <b>Adobe’s technology review of AR/VR</b> at a press release. One of the patents was appreciated, by Adobe’s Patent Review Committee, as an
+important technology and has been filed not only in USA but also in India and other countries of Europe.</p>
+
+							<p class="indent" style="text-align:justify">The work was also presented at <b>Adobe's Tech Summit 2017</b> at San Jose, California.</p>
+
+						<p class="indent" style="text-align:justify">Currently working on a research paper for submission.</p>
+ 
+ 
+ 
+                          <div style="margin:10px;">  
+                                <img src="img/portfolio/part1.jpg" class="img-responsive img-centered" alt="" width="1000">
+                                <figcaption style="margin:10px;">Fig 1: Viewpoint Driven Generation of Diversified Personalized Targeting Content.</figcaption>
+                          </div>  
+							<br><br><br><br>
+                          <div style="margin:10px;">  
+                                <img src="img/portfolio/part2.jpg" class="img-responsive img-centered" alt="" width="1000">
+                                <figcaption style="margin:10px;">Fig 2: Product Recommendations Based on Augmented Reality Viewpoints.</figcaption>
+                          </div>
+							<br><br><br><br>
+                          <div style="margin:10px;">  
+                                <img src="img/portfolio/img1.png" class="img-responsive img-centered" alt="" width="600">
+                                <figcaption style="margin:10px;">Fig 3: Product Recommendations from our model.</figcaption>
+                          </div>						  
+							<br><br><br><br>
+                          <div style="margin:10px;">  
+                                <img src="img/portfolio/part3.jpg" class="img-responsive img-centered" alt="" width="1000">
+                                <figcaption style="margin:10px;">Fig 4: System and Method to Identify Augmented Visuals Influencing Consumer Purchase in Virtual-Commerce.</figcaption>
+                          </div>  						  
+                                           
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="portfolio-modal modal fade" id="proj4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <h2>Combining Class Conditioned Representations in CNN for Salient Object Segmentation</h2>
+                            <hr class="star-primary">
+
+                            <ul class="list-inline item-details" style="font-size:20px">
+                                <li><i class="fa fa-tags"></i> Guide:
+                                    <strong><a href="http://www.serc.iisc.ernet.in/~venky/" target="_blank" style="color:rgb(173, 45, 3)">Dr. R. Venkatesh Babu</a>
+                                    </strong>
+                                </li>
+                                <li><i class="fa fa-tags"></i> Project Duration:
+                                    <b style="color:rgb(173, 45, 3)">May 2015 - July 2015</b>
+                                </li>
+                                <li><i class="fa fa-tags"></i> Keywords:
+                                    <b style="color:rgb(173, 45, 3)">Computer Vision, Deep Learning</b>
+                                </li>
+                                <!---<p><br><i class="fa fa-file-pdf-o"></i> <a href="pdfs/Intel_Report.pdf" target="_blank" style="color:blue">Intern Report</a></p> --->
+                            </ul>
+
+                          
+
+                            <p class="indent" style="text-align:justify">Worked on the development of a CNN framework followed by Dense Conditional Random Field (CRF) for Salient Object Segmentation. Proposed a deep fusion architecture which not only combines class-conditional representations but also introduces scale invariance by combining it via inception like module (inspired from GoogleNet). We evaluated our model on MSRA-1000 and CSSD datasets and were able to perform at par with state-of-the-art models.</p>
+
+                            <!--- <div style="margin:10px;">   
+                                <figure>
+                                    <img src="img/projects/main/fall/system.jpg"  class="img-responsive img-centered" alt="" width="500" height="500">
+                                </figure>
+
+                                <figure>
+                                    <img src="img/projects/main/fall/wearable.jpg" class="img-responsive img-centered" alt="" width="500" height="500">
+                                </figure>
+
+                            </div> ---->
+
+						
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="portfolio-modal modal fade" id="proj5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0" >
+                        <div class="modal-body">
+                            <h2>PCF-based models for Performance Enhancement of Double Channel 802.11n WLAN</h2>
+                            <hr class="star-primary">
+
+                            <ul class="list-inline item-details" style="font-size:20px">
+                                <li><i class="fa fa-tags"></i> Guide:
+                                    <strong><a href="http://cse.iitkgp.ac.in/~sandipc/" target="_blank" style="color:rgb(173, 45, 3)">Prof. Sandip Chakraborty</a>
+                                    </strong>
+                                </li>
+                                <li><i class="fa fa-tags"></i> Project Duration:
+                                    <b style="color:rgb(173, 45, 3)">Aug 2016 - Dec 2016</b>
+                                </li>
+                                <li><i class="fa fa-tags"></i> Keywords: 
+                                    <b style="color:rgb(173, 45, 3)"> Double Channel 802.11n WLAN, PCF, DCF</b>
+                                </li>
+                                <!--- <p><br><i class="fa fa-file-pdf-o"></i> <a href="pdfs/TDCS_Report.pdf" target="_blank" style="color:blue">Technical Report</a></p> --->
+                            </ul>
+
+  
+
+
+                            <p class="indent" style="text-align:justify"><b>Abstract:</b> Wi-Fi  enabled  hand-held  devices  quickly  occupied
+                        the  consumer  market  as  a  result  of  the  remarkable  customer
+                        acceptance  of  IEEE  802.11  standard.  But  the  widely-used  con-
+                        tention   based   medium   access   mechanism   is   unable   to   meet
+                        the  increasing  traffic  demand  of  todays  home  users.  Especially,
+                        delay  sensitive  multimedia  contents  suffer  heavily  from  quality
+                        degradation  under  high  traffic  load.  To  cope  with  increasing
+                        throughput requirements, and to take advantage of improvements
+                        in  hardware  performance,  802.11n  has  been  introduced,  which
+                        is modelled solely on the basis of DCF-based contention periods.
+                        However,  the  time  synchronized  medium  access  mechanism  of
+                        802.11  called  PCF  offers  lower  delay  and  loss,  and  holds  true
+                        potential in supporting high traffic load. For design and planning
+                        of such networks, a thorough performance analysis of PCF based
+                        802.11  WLANs  is  of  profound  importance.  In  this  paper,  we
+                        attempt to propose a modification to the double channel 802.11n
+                        architecture by introducing PCF-based Contention-Free Periods
+                        between the DCF-based contention cycles to allow the central AP
+                        to  relieve  the  starving  node.</p>
+
+                            <!---<div style="margin:10px;">  
+                                <img src="img/projects/main/traffic/flow.jpg" class="img-responsive img-centered" alt="">
+                                <figcaption style="margin:10px;">Flowchart for traffic control.</figcaption>
+                            </div>  ---->
+
+                            <p class="indent" style="text-align:justify">Currently working on a research paper for submission.</p>
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="portfolio-modal modal fade" id="proj6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <h2>Other Projects</h2>
+                            <hr class="star-primary">
+
+ <!--                            <ul class="list-inline item-details" style="font-size:20px">
+                                <li><i class="fa fa-tags"></i> Guide:
+                                    <strong><a href="http://www.nitt.edu/home/academics/departments/ice/faculty/bennet/" target="_blank" style="color:rgb(173, 45, 3)">Mr. Goldin R Bennet</a>
+                                    </strong>
+                                </li>
+                                <li><i class="fa fa-tags"></i> Project Duration:
+                                    <b style="color:rgb(173, 45, 3)">July - Nov 2016</b>
+                                </li>
+                                <li><i class="fa fa-tags"></i> Keywords: 
+                                    <b style="color:rgb(173, 45, 3)">Embedded Systems, Computer Vision</b>
+                                </li>
+                                <p><br><i class="fa fa-file-pdf-o"></i> <a href="pdfs/Biometric_Report.pdf" target="_blank" style="color:blue">Project Report</a></p>
+                            </ul> -->
+
+            <ul>
+				
+                    <li class="indent" style="text-align:justify;font-size:25px;">Researcher Recommendation System</li>                
+                        <p class="indent" style="text-align:justify"><b>Guide:</b> Prof. Pawan Goyal and Prof. Animesh Mukherjee<br>
+                          Developed a search and recommendation engine for Scientific Research Community, as a part of Term Project
+                          for the completion of Information Retrieval Course. Used beautiful soup and selenium in python to parse MAS
+                          to generate the data set for the project (1 lakh authors and their publications). Used clustering techniques
+                          to cluster similar authors based on their co-author graph to recommend new co-authors to an author. Used
+                          LDA to model topics from the keyword database of an author and recommended top 100 authors based on
+                          their rank (gained a 25% increase in recall). Further developed a full-fledged Scientific Search Engine.</p>
+                    <br><br>     
+                    <li class="indent" style="text-align:justify;font-size:25px;">TinyC Compiler</li>
+                        <p class="indent" style="text-align:justify"><b>Guide:</b> Prof. Partha Pratim Das<br>
+                          Designed and implemented a compiler for a C-like language (a subset of C language), as a part of Term Project
+                          for the completion of Compilers Course.</p>
+					<br><br>   
+                    <li class="indent" style="text-align:justify;font-size:25px;">Image Deblurring using Convolutional Neural Networks</p>
+                        <p class="indent" style="text-align:justify"><b>Guide:</b> Prof. Pabitra Mitra<br>
+                          Implemented a deep convolutional neural network structure for image deconvolution. A series of convolution
+                          steps were used for approximating deconvolution. The system uses two modules corresponding to deconvolution
+                          and artifact removal.</p>                          
+
+            </ul>
+							<!-- <p class="indent" style="text-align:justify">The product incorporates a two level security protocol - fingerprint authentication followed by Iris recognition. The entire process is streamlined via a simple graphical user interface. A compact fingerprint module registers unique fingerprints and a modified IR camera stores high resolution images. Potential customers can either enrol or authenticate themselves by following the on-screen instructions. The prototype adheres to a compact, modular design with ease of access for corresponding functions. All of the above is achieved at very nominals costs, given the materials and electronics we have chosen to work with – an optimal biometric solution.</p>
+
+                            <div style="margin:10px;">  
+                                <img src="img/projects/main/PDD/eye_match.png" class="img-responsive img-centered" alt="">
+                                <figcaption style="margin:10px;">Image matching algorithm for iris data.</figcaption>
+                            </div>  
+
+ -->
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="proj7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <h2>Generative Adversarial Networks for Action Recognition in Images</h2>
+                            <hr class="star-primary">
+
+                            <ul class="list-inline item-details" style="font-size:20px">
+                                <li><i class="fa fa-tags"></i> Guide:
+                                    <strong><a href="https://scholar.google.co.in/citations?user=5bXSZPYAAAAJ&hl=en" target="_blank" style="color:rgb(173, 45, 3)">Prof. Pabitra Mitra</a>
+                                    </strong>
+                                </li>
+                                <li><i class="fa fa-tags"></i> Project Duration:
+                                    <b style="color:rgb(173, 45, 3)">Oct 2016 - Present</b>
+                                </li>
+                                <li><i class="fa fa-tags"></i> Keywords:
+                                    <b style="color:rgb(173, 45, 3)">Machine Learning, Computer Vision</b>
+                                </li>
+                                
+                            </ul>
+
+                          
+                            
+                            <p style="text-align:justify">Visual recognition of human-object interactions in images is a prerequisite for generating image descriptions and retrieving images by sentences.
+                    A key bottleneck to recognition of such interactions is the categories that have very few training examples. 
+                    In such cases, semantic knowledge can significantly improve recognition.
+                    A rare category might piggyback on a co-occurring interaction that has more training data thus resulting in an improved recognition. 
+                    In this thesis, I seek to study whether GANs can be used in a semi-supervised setting for recognition of human-object interactions in images, which is an important subset of the larger problem of action recognition. 
+                    We intend to delve deeper and extend the work to videos as well.</p>  
+
+                           
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="proj8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <h2>Segmentation of Retinal Vessels in Fundus Images using Generative Adversarial Networks</h2>
+                            <hr class="star-primary">
+
+                            <ul class="list-inline item-details" style="font-size:20px">
+                                <li><i class="fa fa-tags"></i> Guide:
+                                    <strong><a href="https://scholar.google.co.in/citations?user=5bXSZPYAAAAJ&hl=en" target="_blank" style="color:rgb(173, 45, 3)">Prof. Pabitra Mitra</a>
+                                    </strong>
+                                </li>
+                                <li><i class="fa fa-tags"></i> Project Duration:
+                                    <b style="color:rgb(173, 45, 3)">Oct 2016 - Present</b>
+                                </li>
+                                <li><i class="fa fa-tags"></i> Keywords:
+                                    <b style="color:rgb(173, 45, 3)">Machine Learning, Computer Vision</b>
+                                </li>
+                            </ul>
+
+                           
+                           
+                            <p style="text-align:justify">A part of my undergraduate thesis also focuses on designing class conditional GAN architectures for biomedical image processing, specifically segmentation of blood vessels in fundus images. GANs have been used in the domain of natural images but its applicability in medical imaging domain is yet to be explored. So, I have taken up the challenging task of semi supervised learning by GANs on fundus images.</p>
+
+                        
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="portfolio-modal modal fade" id="exp1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+                            <iframe width="853" height="480" src="https://www.youtube.com/embed/-D7WXVTPXuo?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
+                            <p style="text-align:justify"><br>In the summer of 2016, I was fortunate enough to be selected for the <a href="http://riss.ri.cmu.edu/" target="_blank" style="color:blue">Robotics Institute Summer Scholars (RISS) Program</a> at the <a href="https://www.ri.cmu.edu/" target="_blank" style="color:blue">Carnegie Mellon Robotics Institute</a>. I was one of the 36 undergraduate researchers from across the world to be given this opportunity. I was awarded a fellowship from the <a href="http://iusstf.org/story/53-74-For-Indian-Students.html" target="_blank" style="color:blue">S. N. Bose Scholarship</a> and IUSSTF to pursue this 11-week internship.</p>
+
+                            <div style="padding-top:20px;padding-bottom: 20px">   
+                                <figure>
+                                    <img src="img/Interns/cmu/lab.jpg" class="img-responsive img-centered" alt="" width="415">
+                                </figure>
+
+                                <figure>
+                                    <img src="img/Interns/cmu/me.jpg" class="img-responsive img-centered" alt="" width="400">
+                                </figure>
+                            </div>
+
+                            <p style="text-align:justify">I was guided by <a href="http://www.ri.cmu.edu/person.html?person_id=339" target="_blank" style="color:blue">Dr. William L. “Red” Whittaker</a>, a pioneer in field robotics. I worked in a spin-off of the <a href="http://www.frc.ri.cmu.edu/" target="_blank" style="color:blue">Field Robotics Center</a> (FRC), the Planetary Robotics Lab. The lab is in pursuit of the <a href="http://lunar.xprize.org/" target="_blank" style="color:blue">Google Lunar X Prize</a>, which aims to land a rover on the moon. The project I was working on was in the field of vision and kinematics, a method to estimate 10 DoF of a rover using simply an omnidirectional camera.</p>
+
+                            <div style="padding-top:20px;padding-bottom: 20px">   
+                                <figure>
+                                    <img src="img/Interns/cmu/field_test.jpg" class="img-responsive img-centered" alt="" width="415">
+                                </figure>
+
+                                <figure>
+                                    <img src="img/Interns/cmu/robot_city.jpg" class="img-responsive img-centered" alt="" width="500">
+                                </figure>
+                            </div>
+
+                            <p style="text-align:justify">Over my stay at CMU, I gained exposure to various fields of robotics via seminars, talks and informal discussions. The FRC is at the forefront of developing systems that intuitively perceive their environments, with faculty most active in ground and aerial robotics. The RISS program consisted of a ROS workshop, a trip to the <a href="http://www.nrec.ri.cmu.edu/" target="_blank" style="color:blue">National Robotics Engineering Center</a> and tutorials for communication and research presentation.</p>
+
+                            <p style="text-align:justify">As a summer scholar, I participated actively in planning cohort activities. I was also a peer editor for the <a href="http://riss.ri.cmu.edu/journals/" target="_blank" style="color:blue">RISS Working Papers Journal</a>, which presents the cohort’s summer contributions. The summer culminated with a research showcase, where scholars presented their work through a poster session.</p>
+
+                            <img src="img/Interns/cmu/prez.jpg" class="img-responsive img-centered" alt="" width="500" height="500">
+
+                            <p style="text-align:justify">You can read more about my summer in a short piece I wrote for my college magazine <a href="https://issuu.com/feeds.nitt/docs/volume_6.0_issue_01/10" target="_blank" style="color:red">here</a>. To learn about my project, visit the projects section.</p>
+
+                        </div>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="exp2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+
+
+                        <div style="padding-top:20px;padding-bottom: 20px">   
+                            <figure>
+                                <img src="img/Interns/iisc/iisc.jpg" class="img-responsive img-centered" alt="" width="415">
+                            </figure>
+
+                            <figure>
+                                <img src="img/Interns/iisc/VAL_logo.png" class="img-responsive img-centered" alt="" width="340">
+                            </figure>
+                        </div>
+
+                        <p style="text-align:justify">In 2015, I was a summer intern at the <a href="http://www.iisc.ac.in/" target="_blank" style="color:blue">Indian Institute of Science</a>. Here, I worked under <a href="http://www.serc.iisc.ernet.in/~venky/" target="_blank" style="color:blue">Dr. R. Venkatesh Babu</a> of the <a href="http://val.serc.iisc.ernet.in/valweb/index.html" target="_blank" style="color:blue">Video Analytics Lab</a> (VAL). The VAL is dedicated to problems spanning the domains of signal processing, compression, machine vision, image/video processing, pattern recognition and multimedia. It is a research group of the <a href="cds.iisc.in" target="_blank" style="color:blue">Department of Computational and Data Sciences</a>, and works extensively with deep learning and neural networks.</p>
+
+                        <img style="padding-top:20px;padding-bottom: 20px" src="img/Interns/iisc/expt.jpg" class="img-responsive img-centered" alt="" width="600" height="600">
+
+                        <p style="text-align:justify">I worked on a project in image saliency and understanding for sparse sketches, with <a href="http://cds.iisc.ac.in/student/ravikiran" target="_blank" style="color:blue">Ravi Kiran Sarvadevabhatla</a> for the period of 2 months. The results of this exploration have been submitted to a top-tier image processing journal.</p>
+
+                        <p style="text-align:justify">To read more on this, visit the projects section.</p>
+
+                        </div>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="exp3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-lg-offset-0">
+                        <div class="modal-body">
+
+
+                        <div style="padding-top:20px;padding-bottom: 20px">   
+                            <figure>
+                                <img src="img/Interns/intel/ece_dept.jpg" class="img-responsive img-centered" alt="" width="500">
+                            </figure>
+
+                            <figure>
+                                <img src="img/Interns/intel/intel_edu.jpg" class="img-responsive img-centered" alt="" width="440">
+                            </figure>
+                        </div>
+
+                        <p style="text-align:justify">In the winter of 2014, I was selected for an Intel Internship on campus, organized by the Electronics and Communication Department of NIT Trichy. It was an opportunity to develop solutions for real-world problems, harnessing the potential of the Internet-of-Things. Working under <a href="http://www.nitt.edu/home/academics/departments/ece/faculty/bvenki/" target="_blank" style="color:blue">Dr. B. Venkataramani</a>, I designed a wearable fall-detection monitor on an IoT platform. I built, tested and validated the system over the course of the 1 month intern.</p>
+
+                        <p style="text-align:justify">For further reading, visit the projects section.</p>
+
+                        </div>
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
 
 </body>
+
 </html>
